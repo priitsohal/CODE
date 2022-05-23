@@ -1,0 +1,28 @@
+#smiley {
+    color: red;
+    font-size: 50pt;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    animation-name: move;
+    animation-duration: 3s;
+ }
+ 
+ @keyframes move {
+    0%   { color:red; left:0px; top:0px; }
+    50%  { color:blue; left:200px; top:0px; }
+    100% { color:red; left:0px; top:0px; }
+ }
+ @keyframes move {
+ 100% { color:red; left:0px; top:0px; }
+    25%   { color:yellow; left:200px; top:100px; }
+ 
+ }
+ @keyframes move {
+   25%   { color:yellow; left:200px; top:100px; }
+    75%   { color:green; left:0px; top:100px; }
+ 
+ }
+ 
+ 
+ 

@@ -1,0 +1,20 @@
+.container {
+    display: flex; 
+    width: 200px;
+    height: 60px;
+    background: lightblue;
+    justify-content:space-around;
+   flex-direction:row;
+flex-wrap:wrap;
+ }
+ 
+ .item {                                
+    width: 20px;
+    background: goldenrod;
+    line-height: 55px;
+    text-align: center;
+    margin: 2px;
+ flex-basis: 30%;
+
+ }
+ 
